@@ -26,9 +26,9 @@ zstyle ':vcs_info:git:*' formats '%b '
 setopt PROMPT_SUBST
 PROMPT='%F{green}%*%f %F{blue}%~%f %F{red}${vcs_info_msg_0_}%f$ '
 
-[ -f ~/zsh/.zsh_siteconfig ] && . ~/zsh/.zsh_siteconfig
-[ -f ~/zsh/.zsh_functions ] && . ~/zsh/.zsh_functions
-[ -f ~/zsh/.zsh_aliases ] && . ~/zsh/.zsh_aliases
+[ -f ~/ZshConfig/.zsh_siteconfig ] && . ~/ZshConfig/.zsh_siteconfig
+[ -f ~/ZshConfig/.zsh_functions ] && . ~/ZshConfig/.zsh_functions
+[ -f ~/ZshConfig/.zsh_aliases ] && . ~/ZshConfig/.zsh_aliases
 
 # Truncate path variables
 
