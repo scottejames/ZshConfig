@@ -1,0 +1,7 @@
+dedupPath()
+{
+	/usr/bin/awk -F: '{pp="";for(i=1;i<=NF;i++){if(p[$i]==0){p[$i]=1;q=q FS $i}}print substr(q,2,length(q)-1)}'
+}
+
+
+
