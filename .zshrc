@@ -2,7 +2,7 @@
 
 umask 002
 
-export SHELL=bash
+export SHELL=zsh
 
 # Don't make useless coredump files.  If you want a coredump,
 # say "ulimit -c unlimited" and then cause a segmentation fault.
